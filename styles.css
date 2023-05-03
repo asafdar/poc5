@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #008cba;
+	color: white;
+}
+
+button[type="submit"]:hover {
+	background-color: #006d9c;
+}
+
+#transcript-container {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.5;
+}
